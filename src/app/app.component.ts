@@ -12,7 +12,7 @@ export class AppComponent {
 
   constructor(){
       
-      this.llenarArrayConPrimos();
+      
       
     }
 
@@ -47,6 +47,9 @@ export class AppComponent {
     }
 
 
+    mostrar(){
+      this.llenarArrayConPrimos();
+    }
 
     
   
